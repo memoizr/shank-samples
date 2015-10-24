@@ -1,11 +1,11 @@
 package coffee;
 
-import com.memoizrlabs.ShankModuleRegister;
+import com.memoizrlabs.ShankModuleInitializer;
 
 public final class CoffeeApp implements Runnable {
 
     static {
-        ShankModuleRegister.registerModules(
+        ShankModuleInitializer.initializeModules(
                 new HeaterModule(),
                 new PumpModule()
         );

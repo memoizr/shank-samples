@@ -9,11 +9,13 @@ final class ElectricHeater implements Heater {
         this.isHeating = true;
     }
 
-    @Override public void off() {
+    @Override
+    public void off() {
         this.isHeating = false;
     }
 
-    @Override public boolean isHot() {
+    @Override
+    public boolean isHot() {
         return isHeating;
     }
 }

@@ -8,7 +8,8 @@ final class Thermosiphon implements Pump {
         this.heater = heater;
     }
 
-    @Override public void pump() {
+    @Override
+    public void pump() {
         if (heater.isHot()) {
             System.out.println("=> => pumping => =>");
         }
