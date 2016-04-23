@@ -1,13 +1,13 @@
 package coffee;
 
-import com.memoizrlabs.Shank;
+import static com.memoizrlabs.Shank.provideNew;
 
 final class CoffeeMaker {
 
-    private final Heater heater = Shank.provide(Heater.class);
-    private Pump pump = Shank.provide(Pump.class);
+    private final Heater heater = provideNew(Heater.class);
+    private final Pump pump = provideNew(Pump.class);
 
-    public void brew() {
+    void brew() {
         heater.on();
         pump.pump();
         System.out.println(" [_]P coffee! [_]P ");

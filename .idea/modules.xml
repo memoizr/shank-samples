@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ShankSamples.iml" filepath="$PROJECT_DIR$/ShankSamples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ShankSamples.iml" filepath="$PROJECT_DIR$/.idea/modules/ShankSamples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ShankSamples_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ShankSamples_main.iml" group="ShankSamples" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ShankSamples_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ShankSamples_test.iml" group="ShankSamples" />
     </modules>
   </component>
 </project>
